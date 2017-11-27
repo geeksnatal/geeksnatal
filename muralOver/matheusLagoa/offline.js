@@ -1,0 +1,29 @@
+﻿{
+	"version": 1511794587,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/bacgroud-sheet0.png",
+		"images/bacgroud-sheet1.png",
+		"images/bacgroud-sheet2.png",
+		"images/ground-sheet0.png",
+		"images/platform-sheet0.png",
+		"images/player-sheet0.png",
+		"images/axe-sheet0.png",
+		"images/axe-sheet1.png",
+		"images/enemy-sheet0.png",
+		"images/flag-sheet0.png",
+		"images/flag-sheet1.png",
+		"images/apple-sheet0.png",
+		"images/movingplatform-sheet0.png",
+		"images/victory-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
