@@ -1,0 +1,32 @@
+﻿{
+	"version": 1511792871,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/background-sheet0.png",
+		"images/player-sheet0.png",
+		"images/inimigolento-sheet0.png",
+		"images/castanha-sheet0.png",
+		"images/jaguar-sheet0.png",
+		"images/jaguar-sheet1.png",
+		"images/passaromenu-sheet0.png",
+		"images/innimigo1menu-sheet0.png",
+		"images/inimigo2mnu-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/quit-sheet0.png",
+		"images/tiledbackground.png",
+		"images/arara-sheet0.png",
+		"media/naruto_vs_sasuke_batalha_final_full_fight_legendad.m4a",
+		"media/naruto_vs_sasuke_batalha_final_full_fight_legendad.ogg",
+		"media/mushroom_dance_0.m4a",
+		"media/mushroom_dance_0.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}

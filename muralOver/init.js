@@ -1,9 +1,9 @@
 var listaJogos = {"informacoes": [
-	{"imagem":"imagens/vamosReciclar.png", "link":"https:\/\/natalsupergeeks.github.io/muralOver/vamosReciclar"},
-	{"imagem":"imagens/Aula Demo - LUIS MIGUEL.png", "link":"https://natalsupergeeks.github.io/LuisMiguel/"},
-	{"imagem":"imagens/Aula Demo - RAFAEL.png", "link":"https://natalsupergeeks.github.io/Rafael/"},
-	{"imagem":"imagens/TCC - DAVI.png", "link":"https://natalsupergeeks.github.io/Davi/"},
-	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"}
+	{"imagem":"imagens/vamosReciclar.png", "link":"https:\/\/natalsupergeeks.github.io/muralOver/vamosReciclar/"},
+	{"imagem":"imagens/fugaFlorestal.png", "link":"https://natalsupergeeks.github.io/muralOver/fugaFlorestal/"},
+	{"imagem":"imagens/runFish.png", "link":"https://natalsupergeeks.github.io/muralOver/runFish/"},
+	{"imagem":"imagens/garbageRain.png", "link":"https://natalsupergeeks.github.io/muralOver/garbageRain/"},
+	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/muralOver"}
 ]};
 
 window.onload = function() {
