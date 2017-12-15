@@ -3,8 +3,7 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/Aula Demo - LUIS MIGUEL.png", "link":"https://natalsupergeeks.github.io/LuisMiguel/"},
 	{"imagem":"imagens/Aula Demo - RAFAEL.png", "link":"https://natalsupergeeks.github.io/Rafael/"},
 	{"imagem":"imagens/TCC - DAVI.png", "link":"https://natalsupergeeks.github.io/Davi/"},
-	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"},
-	{"imagem":"imagens/Mural 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/"}
+	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"}
 ]};
 
 window.onload = function() {
@@ -15,5 +14,6 @@ window.onload = function() {
 	for (; i < listaJogos.informacoes.length; i++) {
 		html = html.concat("<div class='col s12 m6 l3'><a target='_blank' href='"+listaJogos.informacoes[i].link+"'><div class='card-panel hoverable' style= 'background-image: url(\""+listaJogos.informacoes[i].imagem+"\"); background-position: center; background-repeat: no-repeat;'></div></a></div>");
 	}
+	html.concat("<div class='col s12 m6 l3'><a href='https://natalsupergeeks.github.io/Mural2017-2/'><div class='card-panel hoverable' style= 'background-image: url(\"imagens/Mural 2017.2.png\"); background-position: center; background-repeat: no-repeat;'></div></a></div>";
 	divConteudoJogos.innerHTML = html;
 };
