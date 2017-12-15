@@ -5,7 +5,9 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/PTI - Daniel Lira 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"},
 	{"imagem":"imagens/PTI - Renan 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-renan.html"},
 	{"imagem":"imagens/PTI - Davi Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/AnimalVsZombies/"},
-	{"imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"}
+	{"imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"},
+	{"imagem":"imagens/PTI - Arthur Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/NaturezaRaivosa/"},
+	{"imagem":"imagens/PTI - Rafael 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/Rafael/"}
 ]};
 
 window.onload = function() {
