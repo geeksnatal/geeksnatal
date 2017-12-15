@@ -4,7 +4,7 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/Aula Demo - RAFAEL.png", "link":"https://natalsupergeeks.github.io/Rafael/"},
 	{"imagem":"imagens/TCC - DAVI.png", "link":"https://natalsupergeeks.github.io/Davi/"},
 	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"},
-	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"}
+	{"imagem":"imagens/PTI - Daniel Lira.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/projeto-daniellira.html"}
 ]};
 
 window.onload = function() {

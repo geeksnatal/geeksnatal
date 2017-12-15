@@ -1,0 +1,76 @@
+/* 
+//Esquema http://colorhunt.co/c/78408
+body {
+	background-color: #343434;
+}
+
+.card-panel {
+	background-color: #0E2431;
+}
+
+p {
+	color:#8E8B82 ;
+}
+
+nav, nav .nav-wrapper {
+	background-color: #F3F3F3 !important;
+}
+
+.card-panel {
+	max-width: 280px;
+	height: 160px;
+}
+
+i, .orange-text, .grey-text.text-lighten-4 {
+	color: #F3F3F3 !important;
+}
+
+.white-text {
+	color: black !important;
+}
+
+nav a {
+    color: #343434 !important;
+}
+
+.orange {
+	background-color: #8E8B82 !important;
+} */
+
+/*Esquema de cores http://colorhunt.co/c/82938*/
+body {
+	background-color: #222831;
+}
+
+.card-panel {
+	background-color: #0E2431;
+}
+
+p {
+	color:#F2F2F2 ;
+}
+
+nav, nav .nav-wrapper {
+	background-color: #393E46 !important;
+}
+
+.card-panel {
+	max-width: 280px;
+	height: 160px;
+}
+
+i, .orange-text, .grey-text.text-lighten-4, .orange-text.text-lighten-3 {
+	color: #F2F2F2 !important;
+}
+
+.white-text {
+	color: black !important;
+}
+
+nav a {
+    color: #F2F2F2 !important;
+}
+
+.orange {
+	background-color: #939393 !important;
+}
