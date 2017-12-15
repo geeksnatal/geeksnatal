@@ -2,8 +2,8 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/PTI - Hussein 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-hussein.html"},
 	{"imagem":"imagens/PTI - Bernardo 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-bernardo.html"},
 	{"imagem":"imagens/PTI - Luis Arthur 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-luisarthur.html"},
-	{"imagem":"imagens/PTI - Daniel Lira.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"}
-	
+	{"imagem":"imagens/PTI - Daniel Lira 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"},
+	{"imagem":"imagens/PTI - Renan 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-renan.html"}
 ]};
 
 window.onload = function() {
