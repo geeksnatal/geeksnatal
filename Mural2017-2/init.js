@@ -8,7 +8,8 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"},
 	{"imagem":"imagens/PTI - Arthur Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/NaturezaRaivosa/"},
 	{"imagem":"imagens/PTI - Rafael 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/Rafael/"},
-	{"imagem":"imagens/PTI - Lucas Furtado 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lucasfurtado.html"}
+	{"imagem":"imagens/PTI - Lucas Furtado 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lucasfurtado.html"},
+	{"imagem":"imagens/PTI - G2 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g2.html"}
 ]};
 
 window.onload = function() {
