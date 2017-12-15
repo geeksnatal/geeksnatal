@@ -1,0 +1,31 @@
+﻿{
+	"version": 1513349783,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-2.1.1.min.js",
+		"offlineClient.js",
+		"images/tiledbackground2.png",
+		"images/tucano-sheet0.png",
+		"images/tucano-sheet1.png",
+		"images/leon-sheet0.png",
+		"images/leon-sheet1.png",
+		"images/leon-sheet2.png",
+		"images/zombi-sheet0.png",
+		"images/zombi-sheet1.png",
+		"images/zombi-sheet2.png",
+		"images/chÂo-sheet0.png",
+		"images/background.png",
+		"images/play-sheet0.png",
+		"images/play-sheet1.png",
+		"images/bullet-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/retry-sheet0.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
