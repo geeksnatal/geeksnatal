@@ -22,5 +22,6 @@ window.onload = function() {
 	for (; i < listaJogos.informacoes.length; i++) {
 		html = html.concat("<div class='col s12 m6 l3'><a target='_blank' href='"+listaJogos.informacoes[i].link+"'><div class='card-panel hoverable' style= 'background-image: url(\""+listaJogos.informacoes[i].imagem+"\"); background-position: center; background-repeat: no-repeat;'></div></a></div>");
 	}
+	
 	divConteudoJogos.innerHTML = html;
 };
