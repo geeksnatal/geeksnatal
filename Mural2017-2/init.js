@@ -11,7 +11,8 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/PTI - Lucas Furtado 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lucasfurtado.html"},
 	{"imagem":"imagens/PTI - G2 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g2.html"},
 	{"imagem":"imagens/PTI - G1 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g1.html"},
-	{"imagem":"imagens/PTI - Matheus Carvalho 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMatheusCarvalho"}
+	{"imagem":"imagens/PTI - Matheus Carvalho 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMatheusCarvalho"},
+	{"imagem":"imagens/PTI - Maria Isabel 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMariaIsabel"}
 ]};
 
 window.onload = function() {
@@ -22,6 +23,6 @@ window.onload = function() {
 	for (; i < listaJogos.informacoes.length; i++) {
 		html = html.concat("<div class='col s12 m6 l3'><a target='_blank' href='"+listaJogos.informacoes[i].link+"'><div class='card-panel hoverable' style= 'background-image: url(\""+listaJogos.informacoes[i].imagem+"\"); background-position: center; background-repeat: no-repeat;'></div></a></div>");
 	}
-	
+
 	divConteudoJogos.innerHTML = html;
 };
