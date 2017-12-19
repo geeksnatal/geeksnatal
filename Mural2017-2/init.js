@@ -12,7 +12,9 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/PTI - G2 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g2.html"},
 	{"imagem":"imagens/PTI - G1 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g1.html"},
 	{"imagem":"imagens/PTI - Matheus Carvalho 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMatheusCarvalho"},
-	{"imagem":"imagens/PTI - Maria Isabel 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMariaIsabel"}
+	{"imagem":"imagens/PTI - Maria Isabel 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMariaIsabel"},
+	{"imagem":"imagens/PTI - Oliver 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoOliver"},
+	{"imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"}
 ]};
 
 window.onload = function() {
