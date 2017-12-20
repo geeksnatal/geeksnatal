@@ -1,21 +1,21 @@
 var listaJogos = {"informacoes": [
-	{"imagem":"imagens/PTI - Hussein 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-hussein.html"},
-	{"imagem":"imagens/PTI - Bernardo 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-bernardo.html"},
-	{"imagem":"imagens/PTI - Luis Arthur 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-luisarthur.html"},
-	{"imagem":"imagens/PTI - Daniel Lira 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"},
-	{"imagem":"imagens/PTI - Renan 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-renan.html"},
-	{"imagem":"imagens/PTI - Davi Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/AnimalVsZombies/"},
-	{"imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"},
-	{"imagem":"imagens/PTI - Arthur Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/NaturezaRaivosa/"},
-	{"imagem":"imagens/PTI - Rafael 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/Rafael/"},
-	{"imagem":"imagens/PTI - Lucas Furtado 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lucasfurtado.html"},
-	{"imagem":"imagens/PTI - G2 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g2.html"},
-	{"imagem":"imagens/PTI - G1 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g1.html"},
-	{"imagem":"imagens/PTI - Matheus Carvalho 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMatheusCarvalho"},
-	{"imagem":"imagens/PTI - Maria Isabel 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMariaIsabel"},
-	{"imagem":"imagens/PTI - Oliver 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoOliver"},
-	{"imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"},
-	{"imagem":"imagens/PTI - Gui Fernandes 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoGuiFernandes"}
+	{"nome": "Hussein", "imagem":"imagens/PTI - Hussein 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-hussein.html"},
+	{"nome": "Bernardo", "imagem":"imagens/PTI - Bernardo 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-bernardo.html"},
+	{"nome": "Luis Arthur", "imagem":"imagens/PTI - Luis Arthur 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-luisarthur.html"},
+	{"nome": "Daniel Lira", "imagem":"imagens/PTI - Daniel Lira 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"},
+	{"nome": "Renan", "imagem":"imagens/PTI - Renan 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-renan.html"},
+	{"nome": "Davi", "imagem":"imagens/PTI - Davi Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/AnimalVsZombies/"},
+	{"nome": "Danilo", "imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"},
+	{"nome": "Arthur", "imagem":"imagens/PTI - Arthur Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/NaturezaRaivosa/"},
+	{"nome": "Rafael", "imagem":"imagens/PTI - Rafael 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/Rafael/"},
+	{"nome": "Lucas", "imagem":"imagens/PTI - Lucas Furtado 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lucasfurtado.html"},
+	{"nome": "Davi, Matheus e Filipe", "imagem":"imagens/PTI - G2 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g2.html"},
+	{"nome": "Malu, Samuel, Henry e Luca", "imagem":"imagens/PTI - G1 Fase1 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-g1.html"},
+	{"nome": "Matheus", "imagem":"imagens/PTI - Matheus Carvalho 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMatheusCarvalho"},
+	{"nome": "Maria", "imagem":"imagens/PTI - Maria Isabel 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoMariaIsabel"},
+	{"nome": "Oliver", "imagem":"imagens/PTI - Oliver 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoOliver"},
+	{"nome": "Pedro Aquino", "imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"},
+	{"nome": "Guilherme", "imagem":"imagens/PTI - Gui Fernandes 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoGuiFernandes"}
 ]};
 
 window.onload = function() {
@@ -24,7 +24,17 @@ window.onload = function() {
 	var i =0;
 	var html = "";
 	for (; i < listaJogos.informacoes.length; i++) {
-		html = html.concat("<div class='col s12 m6 l3'><a target='_blank' href='"+listaJogos.informacoes[i].link+"'><div class='card-panel hoverable' style= 'background-image: url(\""+listaJogos.informacoes[i].imagem+"\"); background-position: center; background-repeat: no-repeat;'></div></a></div>");
+		html = html.concat(    "<div class='col s12 m6 l3'>"+
+      "<div class='card'>"+
+        "<div class='card-image'>"+
+          "<a target='_blank' href='"+listaJogos.informacoes[i].link+"'><img src='"+listaJogos.informacoes[i].imagem+"'></a>"+         
+         " <a class='btn-floating halfway-fab waves-effect waves-light red' target='_blank' href='"+listaJogos.informacoes[i].link+"'><i class='material-icons'>play_arrow</i></a>"+
+        "</div>"+
+        "<div class='card-content'>"+
+		" <span class='card-title'>"+listaJogos.informacoes[i].nome+"</span>"+        
+        "</div>"+
+     " </div>"+
+   " </div>");
 	}
 
 	divConteudoJogos.innerHTML = html;
