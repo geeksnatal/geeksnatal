@@ -37,6 +37,5 @@ window.onload = function() {
      " </div>"+
    " </div>");
 	}
-
 	divConteudoJogos.innerHTML = html;
 };
