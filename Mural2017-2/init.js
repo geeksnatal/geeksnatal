@@ -17,7 +17,8 @@ var listaJogos = {"informacoes": [
 	{"nome": "Pedro Aquino", "imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"},
 	{"nome": "Guilherme", "imagem":"imagens/PTI - Gui Fernandes 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoGuiFernandes"},
 	{"nome": "Davi, Gustavo e Levi", "imagem":"imagens/PTI - Grupo Quarta Fase2 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/TheMightyAdventuresOfASeed"},
-	{"nome": "Augusto e Pedro", "imagem":"imagens/PTI - Fase2 0830 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/SofrenciaDemo"}
+	{"nome": "Augusto e Pedro", "imagem":"imagens/PTI - Fase2 0830 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/SofrenciaDemo"},
+	{"nome": "Ian, Gabriel e Lauro", "imagem":"imagens/PTI - Gato Reciclando 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/GatoReciclando"},
 ]};
 
 window.onload = function() {
