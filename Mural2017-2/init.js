@@ -16,7 +16,8 @@ var listaJogos = {"informacoes": [
 	{"nome": "Oliver", "imagem":"imagens/PTI - Oliver 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoOliver"},
 	{"nome": "Pedro Aquino", "imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"},
 	{"nome": "Guilherme", "imagem":"imagens/PTI - Gui Fernandes 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoGuiFernandes"},
-	{"nome": "Davi, Gustavo e Levi", "imagem":"imagens/PTI - Grupo Quarta Fase2 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/TheMightyAdventuresOfASeed"}
+	{"nome": "Davi, Gustavo e Levi", "imagem":"imagens/PTI - Grupo Quarta Fase2 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/TheMightyAdventuresOfASeed"},
+	{"nome": "Augusto e Pedro", "imagem":"imagens/PTI - Fase2 0830 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/SofrenciaDemo"}
 ]};
 
 window.onload = function() {
@@ -24,9 +25,10 @@ window.onload = function() {
 	//divConteudoJogos.innerHTML =  
 	var i =0;
 	var html = "";
-		html = html.concat(    "<div class='col s10 m6 l3 offset-s1'>"+
+		
 	for (; i < listaJogos.informacoes.length; i++) {
-      "<div class='card'>"+
+      html = html.concat(    "<div class='col s10 m6 l3 offset-s1'>"+
+      	"<div class='card'>"+
         "<div class='card-image'>"+
           "<a target='_blank' href='"+listaJogos.informacoes[i].link+"'><img src='"+listaJogos.informacoes[i].imagem+"'></a>"+         
          " <a class='btn-floating halfway-fab waves-effect waves-light red' target='_blank' href='"+listaJogos.informacoes[i].link+"'><i class='material-icons'>play_arrow</i></a>"+
