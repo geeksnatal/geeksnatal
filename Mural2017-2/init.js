@@ -17,14 +17,19 @@ var listaJogos = {"informacoes": [
 	{"nome": "Oliver", "imagem":"imagens/PTI - Oliver 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoOliver"},
 	{"nome": "Pedro Aquino", "imagem":"imagens/PTI - Pedro Aquino 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoPedroAquino"},
 	{"nome": "Guilherme", "imagem":"imagens/PTI - Gui Fernandes 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/JogoGuiFernandes"},
-	{"nome": "Davi, Gustavo e Levi", "imagem":"imagens/PTI - Grupo Quarta Fase2 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/TheMightyAdventuresOfASeed"}
+	{"nome": "Davi, Gustavo e Levi", "imagem":"imagens/PTI - Grupo Quarta Fase2 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/TheMightyAdventuresOfASeed"},
+	{"nome": "Augusto e Pedro", "imagem":"imagens/PTI - Fase2 0830 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/SofrenciaDemo"},
+	{"nome": "Ian, Gabriel e Lauro", "imagem":"imagens/PTI - Gato Reciclando 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/GatoReciclando"},
+	{"nome": "Henrique, Daniel e Matheus", "imagem":"imagens/PTI - Garbage Hero 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/GarbageHero"},
+	{"nome": "Pedro Napoleão", "imagem":"imagens/PTI - Pedro Napoleao 2017.2.png", "link":"https://scratch.mit.edu/projects/194893062/"},
+	{"nome": "Alberto e João Lucas", "imagem":"imagens/PTI - Alberto e JLucas 2017.2.png", "link":"https://scratch.mit.edu/projects/194894233/"}	
 ]};
 
 window.onload = function() {
 	var divConteudoJogos = document.getElementById("conteudo-jogos");
 	//divConteudoJogos.innerHTML =  
 	var i =0;
-	var html = "";		
+	var html = "";
 	for (; i < listaJogos.informacoes.length; i++) {
 		html = html.concat("<div class='col s10 m6 l3 offset-s1'>"+
 		"<div class='card'>"+
