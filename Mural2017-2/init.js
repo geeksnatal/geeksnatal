@@ -3,7 +3,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "Bernardo", "imagem":"imagens/PTI - Bernardo 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-bernardo.html"},
 	{"nome": "Luis Arthur", "imagem":"imagens/PTI - Luis Arthur 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-luisarthur.html"},
 	{"nome": "Daniel Lira", "imagem":"imagens/PTI - Daniel Lira 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-daniellira.html"},
-	{"nome": "Lara", "imagem":"imagens/PTI - Lara 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lara.html"},
+	{"nome": "Lara", "imagem":"imagens/PTI - Lara 2017.2.jpg", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-lara.html"},
 	{"nome": "Renan", "imagem":"imagens/PTI - Renan 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/projeto-renan.html"},
 	{"nome": "Davi", "imagem":"imagens/PTI - Davi Fase0 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/AnimalVsZombies/"},
 	{"nome": "Danilo", "imagem":"imagens/PTI - Danilo Mafra 2017.2.png", "link":"https://natalsupergeeks.github.io/Mural2017-2/jogos/DefensorVsCacador/"},
