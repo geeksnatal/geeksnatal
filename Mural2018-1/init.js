@@ -2,6 +2,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "João Guilherme", "imagem":"imagens/PTI - joaoGuilherme.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/projeto_joaoGuilherme.html"},
 	{"nome": "Hussein", "imagem":"imagens/PTI - Hussein.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/PTI-Hussein/index.html"},
 	{"nome": "Julio", "imagem":"imagens/PTI - Julio.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/PTI-Julio/index.html"},
+	{"nome": "Daniel, Henrique, Ian e Matheus", "imagem":"imagens/PTI - Porta.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/porta_the_game/index.html"},
 		
 ]};
 
