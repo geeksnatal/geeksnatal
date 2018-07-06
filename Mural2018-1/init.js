@@ -6,6 +6,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "Alberto, Luis e Pedro", "imagem":"imagens/PTI - MACR.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/GAME-MACR/index.html"},
 	{"nome": "Marco Antônio, Ian, Vinícius e Arthur", "imagem":"imagens/PTI - GordinhoBR123.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/projeto_gordinhoBR123.html"},
 	{"nome": "Pedro, Luís Guilherme e Lucas", "imagem":"imagens/PTI - TimeAttak.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/projeto_programadoresDoFuturo.html"},
+	{"nome": "Gabriel, Arthur e Davi", "imagem":"imagens/PTI - protech.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/projeto_protech.html"},
 	
 ]};
 
