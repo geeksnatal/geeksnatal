@@ -4,7 +4,8 @@ var listaJogos = {"informacoes": [
 	{"nome": "Julio", "imagem":"imagens/PTI - Julio.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/PTI-Julio/index.html"},
 	{"nome": "Daniel, Henrique, Ian e Matheus", "imagem":"imagens/PTI - Porta.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/porta_the_game"},
 	{"nome": "Alberto, Luis e Pedro", "imagem":"imagens/PTI - MACR.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/GAME-MACR/index.html"},
-		
+	{"nome": "Marco Antônio, Ian, Vinícius e Arthur", "imagem":"imagens/PTI - GordinhoBR123.png", "link":"https://natalsupergeeks.github.io/Mural2018-1/jogos/projeto_gordinhoBR123.html"},
+	
 ]};
 
 window.onload = function() {
