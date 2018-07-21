@@ -1,15 +1,16 @@
 ﻿var dadosAlunos = [];
 var aluno = null;
-$.ajax({
-	url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRtF3uS-TwF0PlsWoonukxGVi934yDa3h0NjA6OKzRztagLlRncaK64y7DR_aF2gZqrQUpHqH_u-x7t/pub?output=csv',
-	dataType: 'text',
-}).done(popularJson);
 
 $(document).ready(function(){
-	fazerLogin();	
-	popularInfoAluno();
-	popularTabelaFrequencia();
-	popularTabelaDadosAcesso();
+	 $.getJSON('https://script.googleusercontent.com/macros/echo?user_content_key=HIN8gQFiv_1jx8cWnatVVRNbbV32ZeybGpCmMb8vKJhE7-yqFeeKoguwRjaL-wnbpxNige01GD4xDyrvEi9GxCTXRR0qrD2tOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMWojr9NvTBuBLhyHCd5hHa1GhPSVukpSQTydEwAEXFXgt_wltjJcH3XHUaaPC1fv5o9XyvOto09QuWI89K6KjOu0SP2F-BdwUrEtfYzJQrYWY3EAenVn4SWsQbZP3eYQz8RU9KBejdSK-Cqqm_3pi7zE4rkx3h83O-oBv2yn8aSG3c-7T2ckeCw&lib=MnrE7b2I2PjfH799VodkCPiQjIVyBAxva', function(data){
+		popularJson(data);
+		//popularJsonDadosAcesso(data);
+		fazerLogin();	
+		popularInfoAluno();
+		popularTabelaFrequencia();
+		popularTabelaDadosAcesso();
+	 });
+	
 });
 
 function fazerLogin() {	
@@ -33,10 +34,11 @@ function buscarAlunoPorLogin(login) {
 	}
 	return null;
 }
+
 function popularJsonDadosAcesso(data) {
-  var texto_csv = data.split(/\r?\n|\r/)
-  for (var linha = 0; linha < texto_csv.length; linha++) {
-	  var dados_linha = texto_csv[linha].split(',');   
+  var dadosJSON = data.Pag4;
+  for (var linha = 0; linha < dadosJSON.length; linha++) {
+	  var dados_linha = dadosJSON[linha];   
 	  dadosAlunos[linha].login_classcraft = dados_linha[login_classcraft];
 	  dadosAlunos[linha].senha_classcraft = dados_linha[senha_classcraft];
 	  dadosAlunos[linha].login_portal = dados_linha[login_portal];
@@ -47,11 +49,12 @@ function popularJsonDadosAcesso(data) {
 }
 
 function popularJson(data) {
-  var texto_csv = data.split(/\r?\n|\r/)
-  for (var linha = 0; linha < texto_csv.length; linha++) {
-    var dados_linha = texto_csv[linha].split(',');    
+  var dadosJSON = data.Pag4;
+  for (var linha = 0; linha < dadosJSON.length; linha++) {
+    var dados_linha = dadosJSON[linha];    
 	dadosAlunos[linha] = {
 		aluno: dados_linha[col_aluno],
+		curso: dados_linha[col_curso],
 		responsavel: dados_linha[col_responsavel],
 		login: dados_linha[col_login],
 		login_classcraft: "",
@@ -204,28 +207,76 @@ function popularTabelaFrequencia() {
 	/*inserindo informações de frequência*/
 	var linha_frequencia = tbl_body.insertRow();
 	var cell_frequencia = linha_frequencia.insertCell(0);
-	cell_frequencia.innerHTML = "Frequência";
+	cell_frequencia.innerHTML = "<b>Frequência</b>";
 	for(var i=0; i<aulas.length; i++) {
 		var cell_value = linha_frequencia.insertCell();
+		if(aluno.frequencia[aulas[i]] == "p") {
+			cell_value.style = "background-color: #c8e6c9;";//verde
+		} else if(aluno.frequencia[aulas[i]] == "f") {
+			cell_value.style = "background-color: #ffcdd2;";//vermelho
+		} else if(aluno.frequencia[aulas[i]] == "r") {
+			cell_value.style = "background-color: #f0f4c3;";//amarelo
+		}
 		cell_value.innerHTML = aluno.frequencia[aulas[i]];
 	}
 	
 	/*inserindo informações de comportamento*/
 	var linha_comportamento = tbl_body.insertRow();
 	var cell_comportamento = linha_comportamento.insertCell(0);
-	cell_comportamento.innerHTML = "Comportamento";
+	cell_comportamento.innerHTML = "<b>Comportamento</b>";
 	for(var i=0; i<aulas.length; i++) {
 		var cell_value = linha_comportamento.insertCell();
-		cell_value.innerHTML = aluno.diversao_casa[aulas[i]];
+		cell_value.style = getCorCell(comportamento[aulas[i]],200,100);
+		cell_value.innerHTML = aluno.comportamento[aulas[i]];
 	}
 	
 	/*inserindo informações de diversão de casa*/
 	var linha_divecasa = tbl_body.insertRow();
 	var cell_divecasa = linha_divecasa.insertCell(0);
-	cell_divecasa.innerHTML = "Diversão de casa";
+	cell_divecasa.innerHTML = "<b>Diversão de casa</b>";
 	for(var i=0; i<aulas.length; i++) {
 		var cell_value = linha_divecasa.insertCell();
+		cell_value.style = getCorCell(diversao_casa[aulas[i]],200,100);
 		cell_value.innerHTML = aluno.diversao_casa[aulas[i]];
+	}
+	
+	/*inserindo informações de organização*/
+	var linha_organizacao = tbl_body.insertRow();
+	var cell_organizacao = linha_organizacao.insertCell(0);
+	cell_organizacao.innerHTML = "<b>Organização</b>";
+	for(var i=0; i<aulas.length; i++) {
+		var cell_value = linha_organizacao.insertCell();
+		cell_value.style = getCorCell(organizacao[aulas[i]],100,50);
+		cell_value.innerHTML = aluno.organizacao[aulas[i]];
+	}
+	
+	/*inserindo informações de chegada no horário*/
+	var linha_horario = tbl_body.insertRow();
+	var cell_horario = linha_horario.insertCell(0);
+	cell_horario.innerHTML = "<b>Chegou no horário</b>";
+	for(var i=0; i<aulas.length; i++) {
+		var cell_value = linha_horario.insertCell();
+		cell_value.style = getCorCell(horario[aulas[i]],100,50);
+		cell_value.innerHTML = aluno.horario[aulas[i]];
+	}
+	
+	/*inserindo informações extras*/
+	var linha_extras = tbl_body.insertRow();
+	var cell_extras = linha_extras.insertCell(0);
+	cell_extras.innerHTML = "<b>Extras</b>";
+	for(var i=0; i<aulas.length; i++) {
+		var cell_value = linha_extras.insertCell();
+		cell_value.style = getCorCell(extras[aulas[i]],100,50);
+		cell_value.innerHTML = aluno.extras[aulas[i]];
+	}
+}
+
+function getCorCell(pontos, max, mid) {
+	var background_color = "background-color: #c8e6c9;";
+	if(pontos > mid && pontos < max) {
+		background_color = "background-color: #f0f4c3;";
+	} else if(pontos < mid) {
+		background_color = "background-color: #ffcdd2;";
 	}
 }
 
