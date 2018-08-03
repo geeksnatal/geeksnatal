@@ -15,8 +15,8 @@
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
-		"logo-intro-binario.mp4",
-		"logo-intro-binario.ogv",
-		"logo-intro-binario.webm"
+		"Logo-Intro-Binario.mp4",
+		"Logo-Intro-Binario.ogv",
+		"Logo-Intro-Binario.webm"
 	]
 }
