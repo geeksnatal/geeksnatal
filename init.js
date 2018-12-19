@@ -4,8 +4,9 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/Aula Demo - RAFAEL.png", "link":"https://natalsupergeeks.github.io/Rafael/"},
 	{"imagem":"imagens/TCC - DAVI.png", "link":"https://natalsupergeeks.github.io/Davi/"},
 	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"},
-	{"imagem":"imagens/tcc2018.jpg", "link":"https://natalsupergeeks.github.io/Mural2018-1/"}
+	{"imagem":"imagens/tcc2018.jpg", "link":"https://natalsupergeeks.github.io/Mural2018-1/"},
 	{"imagem":"imagens/tcc2018-2.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/"}
+
 ]};
 
 window.onload = function() {
