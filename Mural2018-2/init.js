@@ -2,11 +2,12 @@ var listaJogos = {"informacoes": [
 	{"nome": "Vitor e Maria Eduarda", "imagem":"imagens/PTI - FugaEscravos.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/fuga_dos_escavos/index.html"},
 	{"nome": "Bruno, Maria Luiza e Guilherme", "imagem":"imagens/PTI - curupiraAdventures.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/curupira_adventures/index.html"},
 	{"nome": "Rafael e Jorge", "imagem":"imagens/PTI - massacreCunhau.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/massacreDeCunhau.html"},
+	{"nome": "Tomaz", "imagem":"imagens/PTI - DitaduraMilitar.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/ditadura_militar.html"},
 	{"nome": "Arthur, Alan e Leon", "imagem":"imagens/PTI - ExpulsaoHolandeses.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/expulsaoDosHolandeses.html"},
 	{"nome": "Pedro, Gabriel e Lucas", "imagem":"imagens/PTI - aBullsTrip.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/aBullsTrip/index.html"},
 	{"nome": "Davi e Arthur", "imagem":"imagens/PTI - OperacaoZumbi.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/OperacaoZumbi/index.html"},
 	{"nome": "Julio", "imagem":"imagens/PTI - Indio.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/Indio/index.html"},
-	{"nome": "Ian, Gustavo, Henrique, Matheus e Daniel", "imagem":"imagens/PTI - PortaDitadura.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/porta_ditadura/ProjetoDitadura-HTML5-Shipping"},
+	{"nome": "Ian, Gustavo, Henrique, Matheus e Daniel", "imagem":"imagens/PTI - PortaDitadura.png", "link":"https://supergeeksnatal.itch.io/porta-da-ditadura"},
 	
 ]};
 
