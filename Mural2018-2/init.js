@@ -10,6 +10,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "Ian, Gustavo, Henrique, Matheus e Daniel", "imagem":"imagens/PTI - PortaDitadura.png", "link":"https://supergeeksnatal.itch.io/porta-da-ditadura"},
 	{"nome": "Danilo, Murilo e Vinicius", "imagem":"imagens/PTI - MulaSemCabeca.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/MulaSemCabeca/index.html"},
 	{"nome": "Pedro e Alberto", "imagem":"imagens/PTI - PedroAlberto.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/AlbertoPedro/index.html"},
+	{"nome": "Luca, Guilherme, Davi e Filipe", "imagem":"imagens/PTI - PortuguesesNoBrasil.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/PortuguesesBrasilColonia/index.html"},
 	
 ]};
 
