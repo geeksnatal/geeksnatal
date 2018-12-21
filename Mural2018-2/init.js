@@ -25,7 +25,7 @@ window.onload = function() {
 	var html = "";
 	for (; i < listaJogos.informacoes.length; i++) {
 		html = html.concat("<div class='col s10 m6 l3 offset-s1'>"+
-		"<div class='card'>"+
+		"<div class='card' style='min-height: 310px;'>"+
         "<div class='card-image'>"+
           "<a target='_blank' href='"+listaJogos.informacoes[i].link+"'><img src='"+listaJogos.informacoes[i].imagem+"'></a>"+         
          " <a class='btn-floating halfway-fab waves-effect waves-light red' target='_blank' href='"+listaJogos.informacoes[i].link+"'><i class='material-icons'>play_arrow</i></a>"+
