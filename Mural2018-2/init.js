@@ -11,6 +11,10 @@ var listaJogos = {"informacoes": [
 	{"nome": "Danilo, Murilo e Vinicius", "imagem":"imagens/PTI - MulaSemCabeca.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/MulaSemCabeca/index.html"},
 	{"nome": "Pedro e Alberto", "imagem":"imagens/PTI - PedroAlberto.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/AlbertoPedro/index.html"},
 	{"nome": "Luca, Guilherme, Davi e Filipe", "imagem":"imagens/PTI - PortuguesesNoBrasil.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/jogos/PortuguesesBrasilColonia/index.html"},
+	{"nome": "Pedro, Guilherme e Levi", "imagem":"imagens/PTI - Curupira.png", "link":"https://supergeeksnatal.itch.io/curupiragang"},
+	{"nome": "Matheus, Pedro e Davi", "imagem":"imagens/PTI - Seringueiro.png", "link":"https://supergeeksnatal.itch.io/seringueiro"},
+	{"nome": "Marina, Lara, Luís Guilherme, Lucas e Luís Arthur", "imagem":"imagens/PTI - Fase3Sab.png", "link":"https://www.roblox.com/games/2668671537/SuperGeeks-Natal-Fase-3-Roblox"},
+	
 	
 ]};
 
