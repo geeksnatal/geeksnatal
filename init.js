@@ -6,6 +6,7 @@ var listaJogos = {"informacoes": [
 	{"imagem":"imagens/TCC - Augusto.png", "link":"https://natalsupergeeks.github.io/Augusto/"},
 	{"imagem":"imagens/tcc2018.jpg", "link":"https://natalsupergeeks.github.io/Mural2018-1/"},
 	{"imagem":"imagens/tcc2018-2.png", "link":"https://natalsupergeeks.github.io/Mural2018-2/"},
+	{"imagem":"imagens/thumb2019-1.png", "link":"https://natalsupergeeks.github.io/Mural2019-1/"},
 
 ]};
 
