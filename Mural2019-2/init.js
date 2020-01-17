@@ -1,9 +1,9 @@
 var listaJogos = {"informacoes": [
 	{"nome": "Alice, Isabele, Laura e Pedro", "imagem":"imagens/TCB.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/TurtleCrossBeach/index.html"},
 	{"nome": "Thiago e Guilherme", "imagem":"imagens/VDG.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/index.html"},
-	{"nome": "Pedro e Eduardo", "imagem":"imagens/PNI.png", "link":"https://natalsupergeeks.github.io/Mural2019-1/jogos/Perdido_na_Ilha.html"},
-	{"nome": "Theo", "imagem":"imagens/SR.png", "link":"https://natalsupergeeks.github.io/Mural2019-1/jogos/SharkRescue.html"},
-	{"nome": "Bruno, Gabriel, Luma, Marcos, Vitor", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-1/jogos/CacaALenda.apk"},
+	{"nome": "Pedro e Eduardo", "imagem":"imagens/PNI.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Perdido_na_Ilha.html"},
+	{"nome": "Theo", "imagem":"imagens/SR.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/SharkRescue.html"},
+	{"nome": "Bruno, Gabriel, Luma, Marcos, Vitor", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/CacaALenda.apk"},
 	
 	
 	
