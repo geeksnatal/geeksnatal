@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="11" extheight="448" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="384" id="0" name="Level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="the sea" opacity="100" order="1" rid="18" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Player" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="44" id="0" name="CRAB spawn" pts="4,0.0,0.0,0.0,44.0,38.0,44.0,38.0,0.0" r="64" type="box" w="38" x="599" y="337"/>
+        <region b="64" g="64" h="335" id="1" name="fish spwin" pts="4,0.0,0.0,0.0,335.0,38.0,335.0,38.0,0.0" r="64" type="box" w="38" x="599" y="1"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Mergulhador 1" sx="1.05" sy="0.975" x="149" y="156" z="2"/>
+        <actor a="0.0" aid="2" c="false" group="6" id="19" name="anglerFish 2" sx="4.35" sy="4.35" x="-52" y="71" z="2"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

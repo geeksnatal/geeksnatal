@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="true" fric="0.2" gid="6" id="19" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="anglerFish" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
+        <snippets>
+            <s enabled="true" id="23">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="Bite"/>
+            </s>
+            <s enabled="true" id="15">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="80" id="20" name="anglerFish" shared="false" width="80">
+        <anim across="2" down="2" durations="200,200,200,200" height="160" id="0" loop="true" name="Bite" numframes="4" originx="40" originy="40" sync="false" version="2" width="160">
+            <poly data="4,34,43,54,43,54,73,34,73" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="26" loop="true" name="background music" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="8" id="10" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Coin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="19">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="200" id="11" name="Coin" shared="false" width="200">
+        <anim across="2" down="1" durations="300,300" height="200" id="0" loop="true" name="Default" numframes="2" originx="100" originy="100" sync="false" version="2" width="400">
+            <poly data="4,52,63,67,63,67,80,52,80" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="22" loop="true" name="fail" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="25" fixedrot="false" fric="0.2" gid="3" id="31" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Lose" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="32" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="63" id="32" name="Lose" shared="false" width="171">
+        <anim across="1" down="1" durations="100" height="63" id="0" loop="true" name="Animation 0" numframes="1" originx="85" originy="31" sync="false" version="2" width="171">
+            <poly data="4,0,0,1,0,1,1,0,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="23" loop="true" name="menu" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="26" fixedrot="false" fric="0.2" gid="3" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MenuButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="10" id="34" name="MenuButton" shared="false" width="26">
+        <anim across="1" down="1" durations="100" height="10" id="0" loop="true" name="Animation 0" numframes="1" originx="13" originy="5" sync="false" version="2" width="26">
+            <poly data="4,0,0,30,0,30,10,0,10" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="0" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Mergulhador" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="14">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="Idle"/>
+                <prop id="3" list="0" val="Hurt"/>
+                <prop id="4" list="0" val="Nadando direita"/>
+                <prop id="5" list="0" val="Nadando esquerda"/>
+            </s>
+            <s enabled="true" id="15">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="80" id="1" name="Mergulhador" shared="false" width="80">
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="240" id="0" loop="true" name="Nadando direita" numframes="7" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,7,20,67,20,67,60,7,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="160" id="1" loop="true" name="Idle" numframes="6" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,27,14,57,14,57,66,27,66" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100" height="160" id="2" loop="true" name="Fast" numframes="5" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,7,20,67,20,67,60,7,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100" height="160" id="3" loop="true" name="Hurt" numframes="5" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,20,10,60,10,60,70,20,70" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="240" id="4" loop="true" name="Rush" numframes="7" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,7,20,67,20,67,60,7,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="240" id="5" loop="true" name="Nadando esquerda" numframes="7" originx="40" originy="40" sync="false" version="2" width="240">
+            <poly data="4,7,20,67,20,67,60,7,60" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="7" id="2" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Peixe1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="80" id="3" name="Peixe1" shared="false" width="80">
+        <anim across="1" down="1" durations="100" height="80" id="0" loop="true" name="Default" numframes="1" originx="40" originy="40" sync="false" version="2" width="80">
+            <poly data="4,18,36,54,36,54,49,18,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="2" fixedrot="true" fric="0.2" gid="7" id="4" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Peixe2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="5" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="300" id="5" name="Peixe2" shared="false" width="300">
+        <anim across="1" down="1" durations="100" height="300" id="0" loop="true" name="Default" numframes="1" originx="150" originy="150" sync="false" version="2" width="300">
+            <poly data="4,154,164,201,164,201,181,154,181" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="3" fixedrot="true" fric="0.2" gid="7" id="6" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Peixe3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="7" static="false">
+        <snippets>
+            <s enabled="true" id="17">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+            <s enabled="true" id="18">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="7" name="Peixe3" shared="false" width="32">
+        <anim across="2" down="1" durations="100,100" height="32" id="0" loop="true" name="Default" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="24" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="play button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="25" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="18" id="25" name="play button" shared="false" width="42">
+        <anim across="1" down="1" durations="100" height="18" id="0" loop="true" name="Animation 0" numframes="1" originx="21" originy="9" sync="false" version="2" width="42">
+            <poly data="4,1,1,41,1,41,17,1,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="3" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="retry button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="88" id="28" name="retry button" shared="false" width="339">
+        <anim across="1" down="1" durations="100" height="88" id="0" loop="true" name="Animation 0" numframes="1" originx="169" originy="44" sync="false" version="2" width="339">
+            <poly data="4,10,10,330,10,330,80,10,80" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="9" id="16" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Sponge_Bob" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="100" id="17" name="Sponge_Bob" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="100" id="0" loop="true" name="Default" numframes="1" originx="50" originy="50" sync="false" version="2" width="100">
+            <poly data="4,10,38,47,38,47,90,10,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Default" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="4" id="14" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Submarine" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="180" id="15" name="Submarine" shared="false" width="180">
+        <anim across="1" down="1" durations="100" height="180" id="0" loop="true" name="Default" numframes="1" originx="90" originy="90" sync="false" version="2" width="180">
+            <poly data="4,30,40,105,40,105,85,30,85" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-4.0" dy="-0.0" height="384" id="18" name="the sea" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="768" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="53" id="36" name="title" shared="false" width="93">
+        <anim across="1" down="1" durations="100" height="53" id="0" loop="true" name="Animation 0" numframes="1" originx="46" originy="26" sync="false" version="2" width="93">
+            <poly data="4,0,0,1,0,1,1,0,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="3" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="YouWin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="180" id="30" name="YouWin" shared="false" width="180">
+        <anim across="2" down="1" durations="100,100" height="180" id="0" loop="true" name="Animation 0" numframes="2" originx="90" originy="90" sync="false" version="2" width="360">
+            <poly data="4,0,0,1,0,1,1,0,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+</pack>
