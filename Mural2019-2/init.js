@@ -4,7 +4,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "Pedro e Eduardo", "imagem":"imagens/PNI.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Perdido_na_Ilha.html"},
 	{"nome": "Theo", "imagem":"imagens/SR.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/SharkRescue.html"},
 	{"nome": "Bruno, Gabriel, Luma, Marcos, Vitor", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/CacaALenda.apk"},
-	{"nome": "Fase 1 - Sábado", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Fase 01 - Sábado/index.html"},
+	{"nome": "Kalil Victor, João Gustavo e Matheus", "imagem":"imagens/bobsRescue.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Fase 01 - Sábado/index.html"},
 	{"nome": "Fase 1 - Sábado", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Build/GuerraNaval.exe"},
 
 	
