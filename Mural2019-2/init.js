@@ -7,7 +7,7 @@ var listaJogos = {"informacoes": [
 	{"nome": "Kalil Victor, João Gustavo e Matheus", "imagem":"imagens/bobsRescue.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Fase 01 - Sábado/index.html"},
 	{"nome": "Fase 1 - Sábado", "imagem":"imagens/menu.png", "link":"https://natalsupergeeks.github.io/Mural2019-2/jogos/Build/GuerraNaval.exe"},
 	{"nome": "Daniel", "imagem":"imagens/metodo.png", "link":"https://metodo.glitch.me/"},
-	{"nome": "Pedrinho", "imagem":"imagens/cleanOceans.png", "link":"https://clean-oceans.glitch.me/"},
+	{"nome": "Pedro Aquino", "imagem":"imagens/cleanOceans.png", "link":"https://clean-oceans.glitch.me/"},
 	{"nome": "Matheus", "imagem":"imagens/Salvadores.png", "link":"https://salvadoresdaamazonia.glitch.me/"},
 	{"nome": "Pedro Andrade", "imagem":"imagens/aquila.png", "link":"https://aqui-lafood.glitch.me/"},
 	{"nome": "Levi", "imagem":"imagens/mine.png", "link":"https://mineresources.glitch.me/"},
